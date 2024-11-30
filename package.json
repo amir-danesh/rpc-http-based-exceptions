@@ -1,7 +1,14 @@
 {
-  "name": "rpc-http-based-exceptions-package",
+  "name": "rpc-http-based-exceptions",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Custom RPC Exceptions for NestJS Microservices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
@@ -9,14 +16,19 @@
     "lint": "eslint './src/**/*.{ts,tsx}'",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "nestjs",
+    "rpc",
+    "exceptions",
+    "microservices",
+    "typescript"
+  ],
+  "author": "Amir Hossein Danesh Pour",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.7.2"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@nestjs/microservices": "^10.4.12"
   }
 }
