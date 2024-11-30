@@ -1,6 +1,6 @@
 {
   "name": "rpc-http-based-exceptions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom RPC Exceptions for NestJS Microservices",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
