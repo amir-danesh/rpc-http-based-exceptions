@@ -1,0 +1,22 @@
+{
+  "name": "rpc-http-based-exceptions-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@nestjs/microservices": "^10.4.12"
+  }
+}
