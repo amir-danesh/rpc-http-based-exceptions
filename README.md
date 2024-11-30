@@ -3,7 +3,7 @@
 
 A collection of custom RPC Exceptions for NestJS Microservices, standardizing error responses.
 
-You can Basically throw RPC Exceptions that are standard HTTP Exceptions.
+You can basically throw RPC Exceptions that are standard HTTP Exceptions.
 
 ## Installation
 
@@ -27,4 +27,4 @@ export class AuthController {
 }
 ```
 
-It is mostly useful when you are working with gateway or other services that communicate with RPC, but need Standard HTTP responses.
+It is mostly useful when you are working with gateway or other services that communicate with RPC, but need standard HTTP responses.

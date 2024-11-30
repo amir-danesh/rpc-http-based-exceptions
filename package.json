@@ -23,6 +23,10 @@
     "microservices",
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-user/repo-url.git"
+  },
   "author": "Amir Hossein Danesh Pour",
   "license": "MIT",
   "devDependencies": {
